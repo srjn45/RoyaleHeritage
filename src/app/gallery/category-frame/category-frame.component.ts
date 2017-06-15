@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryFrameComponent implements OnInit {
 
+  imgSrc: String;
+
   constructor() { }
 
   ngOnInit() {
