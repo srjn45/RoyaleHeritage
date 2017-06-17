@@ -8,7 +8,8 @@ import { GalleryService } from "./gallery.service";
 
 @NgModule({
 	imports: [
-		CommonModule
+		CommonModule,
+		HttpModule
 	],
 	declarations: [
 		CategoryFrameComponent,
